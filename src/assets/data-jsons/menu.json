@@ -1,0 +1,20 @@
+[
+  { "id": 1, "nameMenu": "GIỚI THIỆU", "to": "gioi-thieu" },
+  {
+    "id": 2,
+    "nameMenu": "CÁC KHÓA HỌC",
+    "to": "cac-khoa-hoc",
+    "childMenu": [
+      { "id": 2.1, "nameMenu": "Khóa học đàn Piano đệm hát", "to": "course" },
+      { "id": 2.2, "nameMenu": "Khóa học đàn Piano đệm hát", "to": "course" },
+      { "id": 2.3, "nameMenu": "Khóa học đàn Piano đệm hát", "to": "course" },
+      { "id": 2.4, "nameMenu": "Khóa học đàn Piano đệm hát", "to": "course" },
+      { "id": 2.5, "nameMenu": "Khóa học đàn Piano đệm hát", "to": "course" }
+    ]
+  },
+  { "id": 3, "nameMenu": "NƠI MUA NHẠC CỤ", "to": "noi-mua-nhac-cu" },
+  { "id": 4, "nameMenu": "VIDEO", "to": "video" },
+  { "id": 5, "nameMenu": "HÌNH ẢNH HỌC VIÊN", "to": "hinh-anh-hoc-vien" },
+  { "id": 6, "nameMenu": "TIN TỨC", "to": "tin-tuc" },
+  { "id": 7, "nameMenu": "LIÊN HỆ", "to": "lien-he" }
+]
