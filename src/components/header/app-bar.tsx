@@ -48,7 +48,7 @@ const AppBarWeb = () => {
             <Toolbar disableGutters>
               <Typography
                 component="a"
-                href="/"
+                href="/sun-music"
                 sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
               >
                 <img
