@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/sun-music/static/css/main.49ae8e2a.css",
-    "main.js": "/sun-music/static/js/main.43b166ad.js",
+    "main.css": "/sun-music/static/css/main.9b3bbba3.css",
+    "main.js": "/sun-music/static/js/main.728572e0.js",
     "static/js/787.3b1e1a87.chunk.js": "/sun-music/static/js/787.3b1e1a87.chunk.js",
     "static/media/dan-piano.jpg": "/sun-music/static/media/dan-piano.02eabcabf547d005f308.jpg",
+    "static/media/404.png": "/sun-music/static/media/404.c9e0846ed832bf56d3d4.png",
     "static/media/logo-music.svg": "/sun-music/static/media/logo-music.8166c487fcfdc6f460fef547b243aab8.svg",
     "index.html": "/sun-music/index.html",
-    "main.49ae8e2a.css.map": "/sun-music/static/css/main.49ae8e2a.css.map",
-    "main.43b166ad.js.map": "/sun-music/static/js/main.43b166ad.js.map",
+    "main.9b3bbba3.css.map": "/sun-music/static/css/main.9b3bbba3.css.map",
+    "main.728572e0.js.map": "/sun-music/static/js/main.728572e0.js.map",
     "787.3b1e1a87.chunk.js.map": "/sun-music/static/js/787.3b1e1a87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ae8e2a.css",
-    "static/js/main.43b166ad.js"
+    "static/css/main.9b3bbba3.css",
+    "static/js/main.728572e0.js"
   ]
 }
