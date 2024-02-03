@@ -31,9 +31,9 @@ const ContentWrite = () => {
         <Box className="item-bold">{dataContent.line7.item1}</Box>
         <Box>
           <ul>
-            {dataContent.line7.listItem.map((item) => {
+            {dataContent.line7.listItem.map((item, index) => {
               return (
-                <Typography className="item-line" component="li">
+                <Typography key={index} className="item-line" component="li">
                   {item}
                 </Typography>
               );
@@ -45,9 +45,9 @@ const ContentWrite = () => {
         <Box className="item-bold">{dataContent.line8.item1}</Box>
         <Box>
           <ul>
-            {dataContent.line8.listItem.map((item) => {
+            {dataContent.line8.listItem.map((item, index) => {
               return (
-                <Typography className="item-line" component="li">
+                <Typography key={index} className="item-line" component="li">
                   {item}
                 </Typography>
               );
@@ -59,9 +59,9 @@ const ContentWrite = () => {
         <Box className="item-bold">{dataContent.line9.item1}</Box>
         <Box>
           <ul>
-            {dataContent.line9.listItem.map((item) => {
+            {dataContent.line9.listItem.map((item, index) => {
               return (
-                <Typography className="item-line" component="li">
+                <Typography key={index} className="item-line" component="li">
                   {item}
                 </Typography>
               );

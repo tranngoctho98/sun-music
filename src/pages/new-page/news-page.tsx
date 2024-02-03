@@ -5,7 +5,7 @@ import ViewScreen from "../../components/view-screen/view-screen";
 
 const NewsPage = () => {
   return (
-    <ViewScreen title="Tin tức" coverImage="images/news/news-anh-bia.jpg">
+    <ViewScreen title="Tin tức" coverImage="/images/news/news-anh-bia.jpg">
       <Grid
         item
         container
@@ -17,7 +17,7 @@ const NewsPage = () => {
         {dataNews.map((value, index) => {
           return (
             <>
-              <Grid item xs={4}>
+              <Grid item xs={6} sm={4} md={3}>
                 <NewsCard key={index} {...value} />
               </Grid>
             </>

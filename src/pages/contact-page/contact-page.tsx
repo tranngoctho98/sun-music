@@ -7,10 +7,10 @@ const ContactPage = () => {
   return (
     <ViewScreen title="Liên hệ">
       <Grid container>
-        <Grid item sm={4} paddingInline={2}>
+        <Grid item xs={12} sm={6} md={4} paddingInline={2}>
           <ContactFormRegister />
         </Grid>
-        <Grid item sm paddingInline={2}>
+        <Grid item xs paddingInline={2}>
           <ContactInformation />
         </Grid>
       </Grid>

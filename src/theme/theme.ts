@@ -29,7 +29,7 @@ declare module "@mui/material/Pagination" {
 const theme = createTheme({
   palette: {
     mode: "light",
-    background: { default: "#e3ecf3" },
+    background: { default: "#ffffff" },
     text: {
       primary: "#000000",
       disabled: "black",

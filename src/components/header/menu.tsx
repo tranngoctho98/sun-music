@@ -38,7 +38,7 @@ const MenuComponent = (p: MenuCompnentProps) => {
                 <MenuItem
                   key={menu.id}
                   disableRipple
-                  onClick={() => navigate(menu.to)}
+                  onClick={() => navigate(p.to + "/" + menu.to)}
                 >
                   {menu.nameMenu}
                 </MenuItem>

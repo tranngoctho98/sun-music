@@ -2,10 +2,13 @@ import CircleIcon from "@mui/icons-material/Circle";
 import HomeIcon from "@mui/icons-material/Home";
 import { Box, Breadcrumbs, Link } from "@mui/material";
 import styled from "styled-components";
+import { BreadCrumbsModel } from "../../models/bread-crumbs-model";
+import { memo } from "react";
 
 type BreadcrumbsProps = {
   title: string;
   coverImage?: string;
+  listBreadcrumb?: BreadCrumbsModel[];
 };
 
 const BreadcrumbsComponent = (props: BreadcrumbsProps) => {
@@ -37,6 +40,13 @@ const BreadcrumbsComponent = (props: BreadcrumbsProps) => {
                 <HomeIcon sx={{ mr: 0.5 }} fontSize="small" />
                 <span>Sun Music</span>
               </Link>
+              {props.listBreadcrumb?.map((value, index) => {
+                return (
+                  <Link key={index} href={value.url}>
+                    <span> {value.name}</span>
+                  </Link>
+                );
+              })}
               <Link>
                 <span> {props.title}</span>
               </Link>
@@ -160,4 +170,4 @@ const BreadcrumbsStyled = styled.div<{ $imageCover?: string }>`
   }
 `;
 
-export default BreadcrumbsComponent;
+export default memo(BreadcrumbsComponent);

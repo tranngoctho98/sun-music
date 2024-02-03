@@ -16,7 +16,7 @@ const ContactComponent = () => {
           </Typography>
         </Box>
       </Box>
-      <Box className="widget-heading-2">
+      <Box className="widget-heading-2" display={{ xs: "none", xl: "block" }}>
         <Box className="widget-container">
           <Typography
             className="heading-title"

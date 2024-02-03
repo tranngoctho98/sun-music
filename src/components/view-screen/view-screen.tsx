@@ -1,9 +1,12 @@
 import { Box } from "@mui/material";
 import BreadcrumbsComponent from "../breadcrumbs/breadcrumbs";
+import { BreadCrumbsModel } from "../../models/bread-crumbs-model";
+import { memo } from "react";
 
 type ViewScreenProps = {
   title?: string;
   coverImage?: string;
+  listBreadcrumb?: BreadCrumbsModel[];
   children: JSX.Element;
 };
 
@@ -14,13 +17,14 @@ const ViewScreen = (props: ViewScreenProps) => {
         <BreadcrumbsComponent
           title={props.title}
           coverImage={props.coverImage}
+          listBreadcrumb={props.listBreadcrumb}
         />
       )}
-      <Box marginInline={20} minHeight={200}>
+      <Box marginInline={{ xs: 1, xl: 20 }} minHeight={200}>
         {props.children}
       </Box>
     </Box>
   );
 };
 
-export default ViewScreen;
+export default memo(ViewScreen);

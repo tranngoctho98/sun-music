@@ -7,7 +7,7 @@ const ContentIntroduction = () => {
   return (
     <ContentIntroductionStyled container direction="column">
       <Grid item className="title-content">
-        Trung tâm Âm nhạc Fm Music
+        Trung tâm Âm nhạc Sun Music
       </Grid>
       <Grid item className="image-1">
         <img
